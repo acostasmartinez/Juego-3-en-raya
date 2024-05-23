@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en raya</title>
+
+<style>
+#tablero{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+.casilla{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+</style>
+
+<script src="juego.js" defer></script>
+
+
+</head>
+<body>
+    <h1>Tres en raya</h1>
+    <div id="tablero">
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+    </div>
+    
+</body>
+</html>
